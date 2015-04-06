@@ -1,4 +1,5 @@
 import random
+import threading
 
 __author__ = 'zyan'
 from kivy import args
@@ -9,6 +10,9 @@ import time
 import math
 import cmath
 import cairo
+import psutil
+import os
+from subprocess import Popen
 
 #------ Configuration --------
 IMAGE_SIZE = (1000, 1000)
@@ -25,7 +29,6 @@ Color21 = random.random()
 Color22 = random.random()
 Color23 = random.random()
 #-----------------------------
-
 
 class Penrose():
     # Gtk.init(args)
@@ -110,9 +113,23 @@ Builder.load_string("""
 
 class MyPaintApp(App, StackLayout):
     def build(self):
+        for process in psutil.process_iter():
+            if process.cmdline == ['python', 'pythonPenroseServer.py']:
+                print('Process found. Terminating it.')
+                process.terminate()
+            break
+        else:
+            print('Process not found: starting it.')
+            Popen(['python', 'pythonPenroseServer.py'])
+        # while 1 :
         return self
 
 if __name__ == '__main__':
-    # for i in xrange(10):
-        MyPaintApp().run()
-        # time.sleep(2)
+
+    MyPaintApp().run()
+
+    # time.sleep(10)
+    # os.system("TASKKILL /F /IM /usr/bin/python2.7 /home/zyan/PycharmProjects/PenrosePython/pythonPenroseServer.py")
+    # time.sleep(5)
+    # MyPaintApp().stop()
+# threading.Timer(15.0, self.stop()).start()
