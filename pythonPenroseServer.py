@@ -124,12 +124,17 @@ class MyPaintApp(App, StackLayout):
         # while 1 :
         return self
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
 
-    MyPaintApp().run()
+
+if __name__ == '__main__':
+    Penrose.run()
+
+    # PeriodicExecutor().run()
+
 
     # time.sleep(10)
     # os.system("TASKKILL /F /IM /usr/bin/python2.7 /home/zyan/PycharmProjects/PenrosePython/pythonPenroseServer.py")
     # time.sleep(5)
     # MyPaintApp().stop()
-# threading.Timer(15.0, self.stop()).start()
+    # threading.Timer(15.0, self.stop()).start()
