@@ -8,9 +8,9 @@ im = pyimgur.Imgur(CLIENT_ID)
 # uploaded_image = im.upload_image(PATH, title="Uploaded with PyImgur")
 uploaded_image = im.upload_image(PATH, title="Uploaded11")
 gallery_image = im.create_album(title="penrosetill",images=uploaded_image.id)
-author = gallery_image.author
-print(gallery_image._INFO_URL)
-print(author.name)
+# author = gallery_image.author
+# print(gallery_image._INFO_URL)
+# print(author.name)
 print(uploaded_image.title)
 print(uploaded_image.link)
 print(uploaded_image.size)
