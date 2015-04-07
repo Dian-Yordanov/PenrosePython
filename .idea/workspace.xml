@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278f6ae7-d5da-4120-a94b-c94cd541cb85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgurUpload.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploadPictureToImgur.py" afterPath="$PROJECT_DIR$/uploadPictureToImgur.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentSMS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/penrose.png" afterPath="$PROJECT_DIR$/penrose.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PenrosePython.iws" />
@@ -55,8 +55,8 @@
       <file leaf-file-name="penroseServer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/penroseServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="981" max-vertical-offset="1782">
-              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="2034">
+              <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -69,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadPictureToImgur.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sentSMS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentSMS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56396866" vertical-offset="0" max-vertical-offset="383">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadPictureToImgur.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uploadPictureToImgur.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69361705" vertical-offset="89" max-vertical-offset="522">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -136,9 +146,10 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/pythonPenroseServer.py" />
         <option value="$PROJECT_DIR$/pythonCycle.py" />
-        <option value="$PROJECT_DIR$/penroseServer.py" />
         <option value="$PROJECT_DIR$/imgurUpload.py" />
         <option value="$PROJECT_DIR$/uploadPictureToImgur.py" />
+        <option value="$PROJECT_DIR$/penroseServer.py" />
+        <option value="$PROJECT_DIR$/sentSMS.py" />
       </list>
     </option>
   </component>
@@ -233,26 +244,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.uploadPictureToImgur">
-    <configuration default="false" name="kivyApp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PenrosePython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonPenroseServer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.sentSMS">
     <configuration default="false" name="pythonCycle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,6 +315,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PenrosePython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgurUpload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sentSMS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PenrosePython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentSMS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -452,19 +463,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.kivyApp" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pythonCycle" />
-      <item index="2" class="java.lang.String" itemvalue="Python.penroseServer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.uploadPictureToImgur" />
-      <item index="4" class="java.lang.String" itemvalue="Python.imgurUpload" />
+      <item index="0" class="java.lang.String" itemvalue="Python.pythonCycle" />
+      <item index="1" class="java.lang.String" itemvalue="Python.penroseServer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.uploadPictureToImgur" />
+      <item index="3" class="java.lang.String" itemvalue="Python.imgurUpload" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sentSMS" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.uploadPictureToImgur" />
-        <item index="1" class="java.lang.String" itemvalue="Python.imgurUpload" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pythonCycle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.penroseServer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.kivyApp" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sentSMS" />
+        <item index="1" class="java.lang.String" itemvalue="Python.penroseServer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.uploadPictureToImgur" />
+        <item index="3" class="java.lang.String" itemvalue="Python.imgurUpload" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pythonCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +574,19 @@
       <option name="project" value="LOCAL" />
       <updated>1428374621781</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="tried other ways to do it but they do not work">
+      <created>1428376024497</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1428376024497</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updated the server to not only draw the image but also sent it to Imgur">
+      <created>1428376128880</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1428376128880</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,7 +600,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.576244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33868378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122114666" sideWeight="0.49919742" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -642,7 +665,9 @@
     <MESSAGE value="did the cycle generation" />
     <MESSAGE value="uploads pictures to imgur" />
     <MESSAGE value="wtf" />
-    <option name="LAST_COMMIT_MESSAGE" value="wtf" />
+    <MESSAGE value="tried other ways to do it but they do not work" />
+    <MESSAGE value="updated the server to not only draw the image but also sent it to Imgur" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the server to not only draw the image but also sent it to Imgur" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,19 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/penroseServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="981" max-vertical-offset="1782">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/penrose.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pyimgur/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="19436" max-vertical-offset="25272">
@@ -928,8 +940,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uploadPictureToImgur.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69361705" vertical-offset="89" max-vertical-offset="522">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/penroseServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="2034">
+          <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/penrose.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentSMS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56396866" vertical-offset="0" max-vertical-offset="383">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
