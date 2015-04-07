@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278f6ae7-d5da-4120-a94b-c94cd541cb85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentSMS.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/penrose.png" afterPath="$PROJECT_DIR$/penrose.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/penroseServer.py" afterPath="$PROJECT_DIR$/penroseServer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PenrosePython.iws" />
@@ -17,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/pythonPenroseServer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="2628">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="30" />
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="penroseServer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="penroseServer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/penroseServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="2034">
-              <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.7180157" vertical-offset="1795" max-vertical-offset="2250">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sentSMS.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sentSMS.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentSMS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56396866" vertical-offset="0" max-vertical-offset="383">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/pythonCycle.py" />
         <option value="$PROJECT_DIR$/imgurUpload.py" />
         <option value="$PROJECT_DIR$/uploadPictureToImgur.py" />
-        <option value="$PROJECT_DIR$/penroseServer.py" />
         <option value="$PROJECT_DIR$/sentSMS.py" />
+        <option value="$PROJECT_DIR$/penroseServer.py" />
       </list>
     </option>
   </component>
@@ -244,7 +244,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sentSMS">
+  <component name="RunManager" selected="Python.penroseServer">
     <configuration default="false" name="pythonCycle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,8 +471,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sentSMS" />
-        <item index="1" class="java.lang.String" itemvalue="Python.penroseServer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.penroseServer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sentSMS" />
         <item index="2" class="java.lang.String" itemvalue="Python.uploadPictureToImgur" />
         <item index="3" class="java.lang.String" itemvalue="Python.imgurUpload" />
         <item index="4" class="java.lang.String" itemvalue="Python.pythonCycle" />
@@ -586,7 +586,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428376128880</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="sents sms through Twillio in python">
+      <created>1428379585182</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1428379585182</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -667,7 +673,8 @@
     <MESSAGE value="wtf" />
     <MESSAGE value="tried other ways to do it but they do not work" />
     <MESSAGE value="updated the server to not only draw the image but also sent it to Imgur" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the server to not only draw the image but also sent it to Imgur" />
+    <MESSAGE value="sents sms through Twillio in python" />
+    <option name="LAST_COMMIT_MESSAGE" value="sents sms through Twillio in python" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,16 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonPenroseServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="2628">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newpython.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
@@ -946,23 +943,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/penroseServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="2034">
-          <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/penrose.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pythonPenroseServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="2628">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sentSMS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56396866" vertical-offset="0" max-vertical-offset="383">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/penroseServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7180157" vertical-offset="1795" max-vertical-offset="2250">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding />
         </state>
       </provider>
